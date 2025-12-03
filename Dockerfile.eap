@@ -3,8 +3,8 @@
 # It builds using maven and runs the resulting artifacts on EAP
 FROM registry.redhat.io/jboss-eap-7/eap73-openjdk11-openshift-rhel8:7.3.9
 
-LABEL io.k8s.description="Platform for building and running Entando clustered applications on EAP 7.3" \
-      io.k8s.display-name="Entando on EAP 7.3"
+LABEL io.k8s.description="Platform for building and running Villanova clustered applications on EAP 7.3" \
+      io.k8s.display-name="Villanova on EAP 7.3"
 
 ENV USERID_TO_USE=185 \
     STI_SCRIPTS_PATH="/usr/local/s2i" \
